@@ -237,7 +237,7 @@ clear
 echo -e "                         ${BIWhite}${UWhite}About${NC}"
 echo -e "                 ${BICyan}Base Script : ${BIPurple}Horassss${NC}"
 echo -e "                 ${BICyan}Bot Dev     : ${BIPurple}@xolvadev${NC}"
-echo -e "                 ${BICyan}Decodec     :${BIPurple} @boootzzzz${NC}"
+echo -e "                 ${BICyan}Decodec     :${BIPurple} @Andyyuda${NC}"
 echo -e "               ${BICyan}${On_IPurple} SCRIPT MULTI VER.3 STABILE ${UWhite}${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"
