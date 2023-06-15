@@ -234,55 +234,65 @@ export sem=$( curl -s https://raw.githubusercontent.com/artanodrop/permission/ma
 export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
-echo -e "                         ${BIWhite}${UWhite}About${NC}"
-echo -e "                 ${BICyan}Base Script : ${BIPurple}Horassss${NC}"
-echo -e "                 ${BICyan}Bot Dev     : ${BIPurple}@xolvadev${NC}"
-echo -e "                 ${BICyan}Decodec     :${BIPurple} @Andyyuda${NC}"
-echo -e "               ${BICyan}${On_IPurple} SCRIPT MULTI VER.3 STABILE ${UWhite}${NC}"
-echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"
-echo -e "${BICyan} │"
-echo -e " ${BICyan}│  ${BICyan}Use Core        :  ${BIPurple}XRAY${NC}"
-echo -e " ${BICyan}│  ${BICyan}Current Domain  :  ${BIPurple}$(cat /etc/xray/domain)${NC}"
-echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
-echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
-echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
-echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}06${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST      ${NC}" "${BICyan}     │"
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] GEN SSL             │"
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTING ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}10${BICyan}] INSTAL UDP${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
-echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │  \033[0m ${BOLD}${GREEN}XXX${BIYellow} SSH${GREEN}  XXX  ${BIYellow}VMESS  ${GREEN}XXX  ${BIYellow}VLESS  ${GREEN}XXX  ${BIYellow}TROJAN${GREEN} XXX $NC "
-echo -e "${BICyan} │  \033[0m ${Blue}     $ssh1         $vma           $vla           $tra              $NC"
-echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
-echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo -e " ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e " ${BICyan}│  Version      ${NC} : Ver3. Last Update"
-echo -e " ${BICyan}│  User       ${NC}   :\033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  Expiry script${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e " ${BICyan}└─────────────────────────────────────┘${NC}"
-echo
-read -p " Select menu : " opt
-echo -e ""
+echo -e "${white}╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+echo -e "║${red_background}        ✌𝓢𝓒𝓡𝓘𝓟𝓣 𝓑𝓨 𝓢𝓔𝓣𝓐𝓝𝓥𝓟𝓝✌             ${NC}"
+echo -e "${white}╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}"
+echo -e "║========================================================="
+echo -e "║${white}╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+echo -e "║${white} IP VPS        ${NC}★ ${kuning} $IPVPS ${NC}"
+echo -e "║${white} DOMAIN        ${NC}★ ${kuning} $domain ${NC}"
+echo -e "║${white} NS DOMAIN     ${NC}★ ${kuning} $(cat /root/nsdomain) ${NC}"
+echo -e "║${white} RAM           ${NC}★ ${kuning} $tram MB ${NC}"
+echo -e "║${cyan} CPU           ${NC}★ ${cyan} $cpu_usage"
+echo -e "║${cyan} CPU CORES     ${NC}★ ${cyan} $cores"
+echo -e "║${cyan} Client        ${NC}\033[1;35m$Name${NC}"
+echo -e "║${cyan} Xpired        ${NC}\033[1;35m$Exp${NC}"
+echo -e "║${white}╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" 
+echo -e "║${red_background}            ACCOUNT SUDAH TERBUAT          ${NC}"
+echo -e "║${white}╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+echo -e "║  ${green}SSH      VMESS       VLESS      TROJAN$NC  $COLOR1" 
+echo -e "║  ${white} $ssh1        $vma           $vla          $tra                  $NC" 
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"
+echo -e "║${cyan}   ___ ___ ___ _____ _   _  ___   _____ _  _   ${NC}"
+echo -e "║${cyan}  / __| __| __|_   _/_\ | \| \ \ / / _ \ \| |  ${NC}"
+echo -e "║${cyan}  \__ \ _|| _|  | |/ _ \| .` |\ V /|  _/ .` |  ${NC}"
+echo -e "║${cyan}  |___/___|___| |_/_/ \_\_|\_| \_/ |_| |_|\_|  ${NC}"
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"
+echo -e "║${red_background}             MENU                  ${NC}"
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"
+echo -e "║${white}[•1]${NC} ║ ${kuning}ssh${NC}         "
+echo -e "║${white}[•2]${NC} ║ ${kuning}ssh-udp${NC}     "
+echo -e "║${white}[•3]${NC} ║ ${kuning}vmess${NC}       "  
+echo -e "║${white}[•4]${NC} ║ ${kuning}vless${NC}       "
+echo -e "║${white}[•5]${NC} ║ ${kuning}trojan-go${NC}   "
+echo -e "║${white}[•6]${NC} ║ ${kuning}trojan-ws${NC}   "
+echo -e "║${white}[•7]${NC} ║ ${kuning}Check Running${NC}"
+echo -e "║${white}[•8]${NC} ║ ${kuning}Restart Service${NC}"
+echo -e "║${white}[•9]${NC} ║ ${kuning}Menu Backup${NC} "
+echo -e "║${white}[•10]${NC}║ ${kuning}Set Pw Vps${NC}  "
+echo -e "║${white}[•11]${NC}║ ${kuning}Set Reboot${NC}  "
+echo -e "║${white}[•12]${NC}║ ${kuning}Check Running${NC}"
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"    
+echo -e "║ [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]"
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"
+echo -e "║${red_background}   CopyRight By Setan-VPN                  ${NC}"
+echo -e "${white}╠════════════════════════════════════════════╣${NC}"
+echo -e   "${kuning}"
+read -p " >>>>  "  opt
+echo -e   ""
 case $opt in
-1) clear ; menu-ssh ;;
-2) clear ; menu-vmess ;;
-3) clear ; menu-vless ;;
-4) clear ; menu-trojan ;;
-5) clear ; menu-set ;;
-6) clear ; menu-trial ;;
-7) clear ; menu-bckp ;;
-8) clear ; add-host ;;
-9) clear ; certv2ray ;;
-10) clear ; clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-6969) clear ; wget https://raw.githubusercontent.com/artanodrop/v4/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
-0) clear ; menu ;;
+1) clear ; menu-sshh ;;
+2) clear ; udp ;;
+3) clear ; menu-vmess ;;
+4) clear ; menu-vless ;;
+5) clear ; menu-trgo ;;
+6) clear ; menu-trojan ;;
+7) clear ; status ;;
+8) clear ; restarts ;;
+9) clear ; menu-backup ;;
+10) clear ; passwd ;;
+11) clear ; auto-reboot ;;
+12) clear ; menu-set ;;
 x) exit ;;
-*) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
 esac
