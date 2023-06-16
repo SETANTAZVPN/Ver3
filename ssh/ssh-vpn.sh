@@ -271,7 +271,7 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 # menu
-wget -O menu "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu.sh"
+wget -O menun "https://raw.githubusercontent.com/SETANTAZVPN/v4/main/menun.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-vless.sh"
@@ -279,7 +279,7 @@ wget -O running "https://raw.githubusercontent.com/artanodrop/v4/main/menu/runni
 wget -O clearcache "https://raw.githubusercontent.com/artanodrop/v4/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trojan.sh"
-wget -O update "https://raw.githubusercontent.com/SETANTAZVPN/Ver3/main/update.sh"
+wget -O update "https://raw.githubusercontent.com/SETANTAZVPN/v4/main/update.sh"
 wget -O slow "https://raw.githubusercontent.com/Andyyuda/ver3/main/slow.sh"
 
 # menu ssh ovpn
