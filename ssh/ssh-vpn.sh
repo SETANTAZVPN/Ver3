@@ -324,7 +324,7 @@ wget -O restore "https://raw.githubusercontent.com/artanodrop/v4/main/backup/res
 
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
 
-chmod +x menu
+chmod +x menun
 chmod +x menu-trial
 chmod +x menu-vmess
 chmod +x menu-vless
