@@ -279,6 +279,8 @@ wget -O running "https://raw.githubusercontent.com/artanodrop/v4/main/menu/runni
 wget -O clearcache "https://raw.githubusercontent.com/artanodrop/v4/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trojan.sh"
+wget -O update "https://raw.githubusercontent.com/SETANTAZVPN/Ver3/main/update.sh"
+wget -O slow "https://raw.githubusercontent.com/Andyyuda/ver3/main/slow.sh"
 
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-ssh.sh"
@@ -330,6 +332,8 @@ chmod +x running
 chmod +x clearcache
 chmod +x menu-trgo
 chmod +x menu-trojan
+chmod +x slow
+chmod +x update
 
 chmod +x menu-ssh
 chmod +x usernew
