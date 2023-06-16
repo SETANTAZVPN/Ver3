@@ -271,7 +271,7 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 # menu
-wget -O menun "https://raw.githubusercontent.com/SETANTAZVPN/v4/main/menun.sh"
+wget -O menu "https://raw.githubusercontent.com/SETANTAZVPN/v4/main/menun.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-vless.sh"
@@ -296,8 +296,8 @@ wget -O ceklim "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/ceklim.
 wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendang.sh"
 
 # menu system
-wget -O menu-set "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-set.sh"
-wget -O menu-domain "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-domain.sh"
+#wget -O menu-set "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-set.sh"
+#wget -O menu-domain "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-domain.sh"
 wget -O add-host "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/add-host.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/artanodrop/v4/main/xray/certv2ray.sh"
@@ -324,7 +324,7 @@ wget -O restore "https://raw.githubusercontent.com/artanodrop/v4/main/backup/res
 
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
 
-chmod +x menun
+chmod +x menu
 chmod +x menu-trial
 chmod +x menu-vmess
 chmod +x menu-vless
