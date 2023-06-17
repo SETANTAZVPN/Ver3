@@ -64,6 +64,7 @@ else
 red "Permission Denied!"
 exit 0
 fi
+
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 echo -e "\e[1;37mVMESS MENU\033[0m"
