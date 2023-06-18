@@ -214,7 +214,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ SCRIPT Andy Yuda ]-===================="
+echo "=====================-[ SCRIPT Setan-VPN ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -255,7 +255,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By Andy Yuda ]-==============="
+echo "===============-[ Script Created By Setan-VPN ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
