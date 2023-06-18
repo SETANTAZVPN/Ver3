@@ -273,7 +273,7 @@ cd /usr/bin
 # menu
 wget -O menu "https://raw.githubusercontent.com/SETANTAZVPN/v4/main/menun.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/SETANTAZVPN/Ver3/main/menu/menu-trial.sh"
-wget -O menu-vmess "https://raw.githubusercontent.com/SETANTAZVPN/Ver3main/menu/menu-vmess.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/SETANTAZVPN/Ver3/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/SETANTAZVPN/Ver3/main/menu/menu-vless.sh"
 wget -O running "https://raw.githubusercontent.com/artanodrop/v4/main/menu/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/artanodrop/v4/main/menu/clearcache.sh"
